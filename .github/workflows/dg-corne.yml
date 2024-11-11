@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'master'
+      - 'customize-sofle'
 jobs:
   build:
     uses: ./.github/workflows/main.yml
