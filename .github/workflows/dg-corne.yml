@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - 'master'
-      - 'customize-sofle'
+      - 'enable-oled'
 jobs:
   build:
     uses: ./.github/workflows/main.yml
