@@ -19,3 +19,6 @@ clean:
 	-rm left.uf2.txt
 	-rm right.uf2.txt
 	-rm tmp/*.zip
+
+build-left:
+	west -v build -b nice_nano_v2 -t rom_report -t ram_report -- -DSHIELD="corne_left"  -DZMK_CONFIG="./config"
